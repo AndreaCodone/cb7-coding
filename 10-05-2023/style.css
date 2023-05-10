@@ -1,0 +1,81 @@
+/**************************************
+ESERCIZIO 2 */
+
+
+/* .calculator {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 150px;
+  }
+  
+  .row {
+    margin: 5px;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  } */
+
+
+
+/**************************************
+ESERCIZIO AVANZATO */
+
+/* LIGHT/DARK MODE*/
+
+/* .btn {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    font-size: small;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  .row {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #eee;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ddd;
+  }
+
+  #output{
+      margin: 10px;
+      width: 160px;
+      height: 30px;
+      border: 2px solid #333;
+      border-radius: 8px;
+  } */
