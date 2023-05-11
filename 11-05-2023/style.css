@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+  }
+  
+  .listItem {
+      cursor: pointer;
+      margin: 10px;
+      border: 2px solid;
+      border-radius: 12px;
+      text-align: center;
+      padding: 15px;
+      align-items: center;
+      list-style-type: none;
+  }
