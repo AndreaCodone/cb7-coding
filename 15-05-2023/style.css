@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    margin: 0 44px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 10px;
+}
+
+.navbar svg{
+    cursor: pointer;
+}
+
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar__search input {
+    height: 20px;
+    background: rgb(201, 201, 201) url(https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid&sz=2xs);
+    background-color: rgb(245, 245, 245);
+    border-radius: 8px;
+    border: 1px solid rgb(245, 245, 245);
+    align-items: center;
+}
+
+.navbar__user {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    margin: 10px;
+}
+
+.hero img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(0.4) sepia(0.1) contrast(1) saturate(1);
+    transition: all 0.35s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hero__content {
+    margin: 0 80px;
+    position: relative;
+    top: 0;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+}
+
+.hero img:hover {
+    transform: scale(1.1);
+}
+
+/* BRANDS */
+
+@media screen and (min-width: 958px) {
+    
+    .brands__img{
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 200px;
+        transition: all 0.35s;
+        cursor: pointer;
+    }
+    
+}
+
+.logo{
+    list-style: none;
+}
+
+
+/* CURRATED PICKS */
+
+.productList {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    height: 450px;
+}
+
+.productCard img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.productCard__text {
+    padding: 12px;
+    position:relative;
+    width: 90%;
+    min-height: 30px;
+}
