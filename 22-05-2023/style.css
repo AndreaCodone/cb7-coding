@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+#weather {
+  text-align: center;
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 8px;
+  margin: 0px 100px;
+  padding: 20px;
+  /* box-shadow: inset 7px 7px 3px #dedede; */
+  background-color: rgb(249, 249, 249);
+}
+
+input {
+  margin: 10px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  box-shadow: inset 2px 2px 2px #dedede;
+  text-align: center;
+}
+
+button {
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(245, 245, 245);
+  width: 80px;
+  box-shadow: inset 2px 2px 2px #dedede;
+}
