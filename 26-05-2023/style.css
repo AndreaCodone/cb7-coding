@@ -1,0 +1,38 @@
+* {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textInput {
+  margin: 10px;
+}
+
+.title {
+  color: black;
+  text-transform: capitalize;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+}
