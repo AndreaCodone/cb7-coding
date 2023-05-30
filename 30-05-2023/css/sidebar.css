@@ -1,0 +1,8 @@
+.sidebar {
+  position: sticky;
+}
+
+.sidebarTitle h4 {
+  margin: 20px;
+  font-size: x-large;
+}
