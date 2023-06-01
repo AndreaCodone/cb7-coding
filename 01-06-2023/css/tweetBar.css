@@ -1,0 +1,79 @@
+.tweetBar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid rgb(80, 80, 80);
+  width: 430px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.tweetBar__profile {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tweetBar__profile img {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.tweetBar__content {
+  width: calc(100% - 68px);
+}
+
+#inputTweet {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  color: var(--color-text-light);
+}
+
+.tweetBar__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.tweetBar__icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tweetBar__icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+}
+
+.tweetBar__icon:hover {
+  background-color: var(--color-bg-brand);
+}
+
+.tweetBar__icon svg {
+  fill: var(--color-brand);
+  width: 20px;
+  height: auto;
+}
+
+#tweetButton {
+  padding: 15px 20px;
+  background-color: var(--color-brand);
+  border-radius: 36px;
+  cursor: pointer;
+  margin-right: 30px;
+}

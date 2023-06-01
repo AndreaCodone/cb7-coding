@@ -1,0 +1,84 @@
+.mainContainer {
+  /* max-width: 1440px; */
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mainContent {
+  height: 100%;
+}
+
+.tweet {
+  display: flex;
+  gap: 30px;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tweet img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.tweet__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nameEl {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.userNameEl {
+  color: rgba(215, 215, 215, 0.42);
+}
+
+.sidebar {
+  border-left: 1px solid rgb(80, 80, 80);
+}
+
+/* media query mobile and tablet */
+@media screen and (max-width: 1024px) {
+  .mainContent {
+    width: calc(100% - 98px);
+    position: sticky;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+/* media query desktop */
+@media screen and (min-width: 1025px) {
+  /* .mainContainer {
+    /* padding-left: 5px;
+    padding-right: 5px; */
+
+  .mainContent {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tweet {
+    margin-right: 50px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 400px;
+  }
+}
